@@ -56,7 +56,7 @@ namespace GetBattleTag {
                 string line;
 
                 while ((line = sr.ReadLine()) != null) {
-                    if (line.Contains("GameState.DebugPrintGame() - PlayerID=") && !line.Contains(Core.Game.Player.Name)) {
+                    if (line.Contains("TAG_CHANGE Entity=") && !line.Contains(Core.Game.Player.Name)) {
                         opponents.Add(line);
                     }
                 }

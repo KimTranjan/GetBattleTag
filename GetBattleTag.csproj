@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HearthstoneDeckTracker">
-      <HintPath>..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.6.9\HearthstoneDeckTracker.exe</HintPath>
+      <HintPath>..\..\..\..\AppData\Local\HearthstoneDeckTracker\app-1.8.7\HearthstoneDeckTracker.exe</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
